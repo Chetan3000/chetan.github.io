@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Chetan Kumar",
+  title: "Hi all, I'm Chetan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Cloud Engineer 🚀 leveraging AWS, Azure, and GCP to build and manage scalable and secure cloud infrastructure solutions"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Chetan3000",
+  linkedin: "https://www.linkedin.com/in/chetan-kumar3000/",
+  gmail: "chetandhiman061@gmail.com",
+  medium: "https://medium.com/@chetandhiman061",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +46,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CLOUD SOLUTIONS ARCHITECT & ENGINEER - BUILDING THE FUTURE IN THE CLOUD",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design, deploy, and manage robust and scalable cloud infrastructure on platforms like AWS, Azure, and GCP"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Implement secure and highly available cloud environments optimized for performance and cost-efficiency"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Expertise in cloud automation, infrastructure-as-code (IaC), and DevOps practices to streamline deployments and operations"
     )
   ],
 
@@ -73,44 +70,48 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "DevOps",
+      fontAwesomeClassname: "fab fa-dev"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Powerscale",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Vast",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Qumulo",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fas fa-infinity"
+    },
+    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -126,31 +127,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Algonquin College",
+      logo: require("./assets/images/version5.png"),
+      subHeader: "Computer System technician and Networking",
+      duration: "2020",
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,30 +162,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Services Engineer / Technical Trainer",
+      company: "Superna",
+      companylogo: require("./assets/images/supernav2.jpeg"),
+      date: "2022 – Present",
+      desc: "As a Technical Trainer at Superna, I play a crucial role in onboarding and supporting both internal teams and external clients. I am responsible for developing and delivering comprehensive, hands-on training programs for new hires, leveraging my expertise to build and maintain cloud-based lab environments.  My training focuses on Superna's software suite, ensuring new employees quickly become proficient.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Design and maintain cloud-based lab environments to facilitate practical training",
+        "Provide expert technical onboarding to customers, addressing their software-related issues",
+        "Guide customers through the installation process of Superna software in VMware and cloud environments",
+        "Technologies used - AWS (S3, Route 53, Amplify, ECS, Guardduty, Lambda, API), Azure, GCP, Docker, Linux Open SUSE, Apache Kafka, Apache Solr, Apache Zookeeper, Cloud Object Storage platforms, TCP/IP, NFS, CIFS, OneFS, VMware"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Technical Support Engineer",
+      company: "Cogeco Communications",
+      companylogo: require("./assets/images/cogeco.png"),
+      date: "2021 – 2022",
+      desc: "Provide first-level technical support to Cogeco customers, resolving issues with internet, TV, phone, and smart home services.  Diagnose and troubleshoot technical problems, guiding customers through solutions and escalating complex issues.  Maintain a positive customer experience while documenting interactions and adhering to support standards.  Stay up-to-date with service offerings to effectively assist customers and contribute to process improvements.",
+      descBullets: [
+        "Delivered exceptional customer service, resolving technical issues and providing guidance on service offerings",
+        "Troubleshot and resolved technical problems, escalating complex issues to the appropriate team",
+        "Documented customer interactions and maintained accurate records of technical issues and solutions",
+        "Technologies used- Linux, Internet, TV, Phone, Smart Home Services, Modems, Routers, Wi-Fi, TCP/IP, Set-top boxes, Cable TV, VoIP, Smart Devices"
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -206,37 +195,31 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PROJECTS I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/resumechallenege.png"),
+      projectName: "Cloud Resume Challenge",
+      projectDesc: "Completed the Cloud Resume Challenge, a hands-on project involving the design and deployment of a serverless resume website on AWS. This project showcases practical experience in architecting and implementing cloud solutions using key AWS services including S3 for static website hosting, CloudFront for content delivery, API Gateway and Lambda for backend functionality, DynamoDB for database management, and Route53 for DNS configuration.  This challenge demonstrates proficiency in serverless architecture and core AWS cloud technologies",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Github",
+          url: "https://github.com/Chetan3000/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/cloudshare.jpg"),
+      projectName: "Training Environments",
+      projectDesc: "Developed and deployed scalable virtual training environments on CloudShare, utilizing VMware, Windows Server, OpenSUSE, PowerScale, and Qumulo. These environments provided a platform for hands-on Linux and cybersecurity training, featuring complex internetworking to support diverse scenarios.  Engaging training content was created with RISE Articulate.  Secure access and streamlined management were achieved through Active Directory, Single Sign-On (SSO), and Jenkins/CICD automation.  The project incorporated DNS management and Route 53 for cloud integration, resulting in a highly scalable and effective training solution.",
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -252,51 +235,34 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "AWS Certified Solutions Architect - Associate",
+      image: require("./assets/images/awsreal.png"),
+      imageAlt: "AWS Certified Solutions Architect - Associate",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://www.credly.com/badges/528404d4-8f48-4fdb-9b1a-15b1e392a287/public_url"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "CCNAv7: Introduction to Networks",
+      image: require("./assets/images/ccna.png"),
+      imageAlt: "CCNAv7: Introduction to Networks",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Linkedin",
+          url: "https://www.linkedin.com/in/chetan3000/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Aws Certified Cloud Practitioner",
+      image: require("./assets/images/awspra.png"),
+      imageAlt: "AWS Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://www.credly.com/badges/101fff65-277e-4043-a199-24cf52c1cb76/linked_in_profile"},
       ]
     }
   ],
@@ -309,19 +275,19 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@chetandhiman061",
+      title: "Coming Soon",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Hello World! I am Chetan."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@chetandhiman061",
+      title: "Comng Soon",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Hello World! I am Chetan."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +309,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +322,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,9 +337,8 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a opportuinity or just want to say hi? My Inbox is open for all.",
+  email_address: "chetandhiman061@gmail.com"
 };
 
 // Twitter Section
@@ -383,7 +348,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
