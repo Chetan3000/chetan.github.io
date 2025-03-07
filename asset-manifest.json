@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/chetan.github.io/static/css/main.d571386f.css",
+    "main.js": "/chetan.github.io/static/js/main.97f270df.js",
+    "static/css/487.bb36206c.chunk.css": "/chetan.github.io/static/css/487.bb36206c.chunk.css",
+    "static/js/487.c7cfe96a.chunk.js": "/chetan.github.io/static/js/487.c7cfe96a.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/chetan.github.io/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.7b31f7ed.chunk.js": "/chetan.github.io/static/js/990.7b31f7ed.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/chetan.github.io/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/resumechallenege.png": "/chetan.github.io/static/media/resumechallenege.7d0e4f4578fe297afd31.png",
+    "static/media/resume.pdf": "/chetan.github.io/static/media/resume.28a3df643204772cfaff.pdf",
+    "static/media/Agustina.woff": "/chetan.github.io/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/cogeco.png": "/chetan.github.io/static/media/cogeco.7541f97fdfd2dd4ab598.png",
+    "static/media/ccna.png": "/chetan.github.io/static/media/ccna.e09389804e884b4eccf0.png",
+    "static/media/manOnTable.svg": "/chetan.github.io/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/version5.png": "/chetan.github.io/static/media/version5.1ea6014191dcfbe8d3ea.png",
+    "static/media/awspra.png": "/chetan.github.io/static/media/awspra.f685d63a35961ca83875.png",
+    "static/media/contactMailDark.svg": "/chetan.github.io/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/chetan.github.io/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/awsreal.png": "/chetan.github.io/static/media/awsreal.8227f20a74f90d78f3cb.png",
+    "static/media/cloudshare.jpg": "/chetan.github.io/static/media/cloudshare.6456e85260f7daf4a183.jpg",
+    "static/media/skill.svg": "/chetan.github.io/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/chetan.github.io/index.html",
+    "static/media/talksCardBack.svg": "/chetan.github.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.d571386f.css.map": "/chetan.github.io/static/css/main.d571386f.css.map",
+    "main.97f270df.js.map": "/chetan.github.io/static/js/main.97f270df.js.map",
+    "487.bb36206c.chunk.css.map": "/chetan.github.io/static/css/487.bb36206c.chunk.css.map",
+    "487.c7cfe96a.chunk.js.map": "/chetan.github.io/static/js/487.c7cfe96a.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/chetan.github.io/static/css/990.c6a7ee28.chunk.css.map",
+    "990.7b31f7ed.chunk.js.map": "/chetan.github.io/static/js/990.7b31f7ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d571386f.css",
+    "static/js/main.97f270df.js"
+  ]
+}
